@@ -6,6 +6,9 @@ Este juego fue creado con el módulo Pygame Zero.
 Cómo jugar
 El juego comienza con una pantalla de bienvenida que se muestra. Para comenzar a jugar, el jugador debe presionar la barra espaciadora. Una vez que comienza el juego, el dinosaurio comenzará a correr automáticamente. El jugador debe presionar la barra espaciadora para saltar sobre obstáculos.
 
+Para ejecutar:
+Abra el archivo runner.py
+
 Si el jugador choca con un obstáculo, el juego termina y se muestra la pantalla de Game Over. Para reiniciar el juego, el jugador debe presionar la tecla 'R'.
 
 Cómo funciona el código
