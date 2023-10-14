@@ -1,23 +1,23 @@
 Dino Run
-Dino Run es un juego simple en el que el jugador controla a un dinosaurio que debe saltar sobre obstáculos y evitar chocar con ellos. El objetivo es lograr la mayor cantidad de puntos posible antes de que el jugador pierda.
+Dino Run is a simple game where the player controls a dinosaur, guiding it to jump over obstacles and avoid collisions. The objective is to accumulate as many points as possible before the player loses.
 
-Este juego fue creado con el módulo Pygame Zero.
+This game was created using the Pygame Zero module.
 
-Cómo jugar
-El juego comienza con una pantalla de bienvenida que se muestra. Para comenzar a jugar, el jugador debe presionar la barra espaciadora. Una vez que comienza el juego, el dinosaurio comenzará a correr automáticamente. El jugador debe presionar la barra espaciadora para saltar sobre obstáculos.
+How to Play
+The game begins with a welcoming screen. To start playing, the player should press the spacebar. Once the game commences, the dinosaur automatically starts running. The player must press the spacebar to make the dinosaur jump over obstacles.
 
-Para ejecutar:
-Abra el archivo runner.py
+To run:
+Open the runner.py file
 
-Si el jugador choca con un obstáculo, el juego termina y se muestra la pantalla de Game Over. Para reiniciar el juego, el jugador debe presionar la tecla 'R'.
+If the player collides with an obstacle, the game ends, and the Game Over screen is displayed. To restart the game, the player should press the 'R' key.
 
-Cómo funciona el código
-El código se divide en dos funciones principales: draw() y update().
+How the Code Works
+The code is divided into two main functions: draw() and update().
 
-La función draw() se encarga de dibujar los gráficos del juego en la pantalla. Esta función verifica si el juego ha terminado y muestra la pantalla de Game Over si es así. Si el juego sigue en marcha, dibuja el cielo y el suelo, el puntaje actual y el dinosaurio y obstáculos.
+The draw() function is responsible for rendering the game's graphics on the screen. This function checks if the game has ended and displays the Game Over screen if so. If the game is still running, it draws the sky and ground, the current score, and the dinosaur and obstacles.
 
-La función update() maneja la lógica del juego. Actualiza la posición del dinosaurio y de los obstáculos en cada fotograma, verifica si el jugador ha chocado con un obstáculo y actualiza el puntaje. También maneja la entrada del jugador y reinicia el juego si se presiona la tecla 'R'.
+The update() function handles the game's logic. It updates the position of the dinosaur and obstacles in each frame, checks if the player has collided with an obstacle, and updates the score. It also manages player input and restarts the game if the 'R' key is pressed.
 
-Además, hay algunas variables globales que controlan el estado del juego, como la lista de obstáculos, el puntaje y el estado de Game Over.
+Additionally, there are some global variables that control the game's state, such as the obstacle list, the score, and the Game Over state.
 
-En resumen, Dino Run es un juego simple pero divertido que muestra algunos de los conceptos básicos de la programación de juegos en Python.
+In summary, Dino Run is a simple yet entertaining game that showcases some of the fundamental concepts of game programming in Python.
